@@ -21,7 +21,7 @@
 		<dependency>
 			<groupId>com.github.vdemeester</groupId>
 			<artifactId>libminiature</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>0.3.0</version>
 		</dependency>
 
 		<dependency>
@@ -200,4 +200,14 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-vdemeester-maven</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/vdemeester/maven</url>
+		</repository>
+	</repositories>
 </project>
